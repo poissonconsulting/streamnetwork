@@ -12,21 +12,33 @@ plot stream networks.
 
 ## Design
 
-- A streamnetwork is an object of S3 class `streamnetwork` which
-  inherits from class `dm`.
+- A streamnetwork is an object of S3 class `streamnetwork`.
 - Functions have the prefix `sn_`
 
 ### Dependencies
 
-- `dm`
-- `tibble`
-- `sf`
+- [`tibble`](https://github.com/tidyverse/tibble)
+- [`sf`](https://github.com/r-spatial/sf)
+
+#### Possibilities
+
+- <https://github.com/r-spatial/lwgeom>
+- [`dm`](https://github.com/cynkra/dm)
 
 ### Related Packages
 
+#### tidyverse
+
 - [`sfnetworks`](https://github.com/luukvdmeer/sfnetworks)
-- `fwatlasbc`
-- `tidygraph`
+- [`tidygraph`](https://github.com/thomasp85/tidygraph)
+- [`gggraph`]()
+- [`igraph`]()
+- SSN2
+
+#### others
+
+- [`fwatlasbc`](https://github.com/poissonconsulting/fwatlasbc)
+- [`streamgis`](https://github.com/mattjbayly/streamgis)
 
 ## Installation
 
