@@ -1,0 +1,20 @@
+Package: streamnetwork
+Type: Package
+Title: Create, Manipulate, Query and Plot Stream Networks
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Poisson Consulting", , , "admin@poissonconsulting.ca", role = c("cre", "cph"))
+  )
+Description: An R package to create, manipulate, query and plot stream networks.
+License: MIT + file LICENSE
+URL: https://github.com/poissonconsulting/streamnetwork
+BugReports: https://github.com/poissonconsulting/streamnetwork/issues
+Depends:
+    R (>= 4.1)
+Imports:
+    tibble,
+    sf,
+    dm
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.0
