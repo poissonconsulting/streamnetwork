@@ -71,6 +71,11 @@ preserved
 
 ### Functions
 
+- Compare two networks differences in
+  - stream_ids
+  - stream_names with stream_id
+  - stream lengths
+  - parent\_
 - Create from bunch of multi line strings
 - Create from FWA information
 - Change projection
@@ -112,6 +117,8 @@ preserved
 
 - [`fwatlasbc`](https://github.com/poissonconsulting/fwatlasbc)
 - [`streamgis`](https://github.com/mattjbayly/streamgis)
+- <https://github.com/mbtyers/riverdist>
+- <https://github.com/pet221/SSNbler>
 
 ## Installation
 
