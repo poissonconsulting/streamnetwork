@@ -97,10 +97,10 @@ preserved
 
 - [`tibble`](https://github.com/tidyverse/tibble)
 - [`sf`](https://github.com/r-spatial/sf)
+- [`lwgeom`](https://github.com/r-spatial/lwgeom)
 
 #### Possibilities
 
-- <https://github.com/r-spatial/lwgeom>
 - [`dm`](https://github.com/cynkra/dm)
 
 ### Related Packages
