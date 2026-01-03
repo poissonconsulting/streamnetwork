@@ -104,10 +104,10 @@ preserved
 ### Dependencies
 
 - [`tibble`](https://github.com/tidyverse/tibble)
-
 - [`sf`](https://github.com/r-spatial/sf)
+- [`lwgeom`](https://github.com/r-spatial/lwgeom)
 
-- [`lwgeom`](https://github.com/r-spatial/lwgeom) \#### Possibilities
+#### Possibilities
 
 - [`dm`](https://github.com/cynkra/dm)
 
