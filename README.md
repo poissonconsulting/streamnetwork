@@ -35,12 +35,20 @@ plot stream networks.
     channels)
   - child_p (double of proportion between 0 and 1 of way up parent
     stream)
+  - start_year (integer) to allow for changes at freshet in any given
+    year (child streams will also have to have their parent_p updated)
+  - ds_elevation
+  - gradient
+  - sinuosity
   - other columns are preserved and can be used to filter etc
 
   Notes
 
   - The stream distance in m can be obtained by multiplying the xx_p by
     the stream_length.
+  - Streams with sections that are temporarily or permanently dry or
+    that flow through lakes should be included for calculation of stream
+    measures but coded as such in the section table.
   - There must be no cycles!
 
 Points Points on the stream network are stored as one or more tibbles
@@ -96,11 +104,11 @@ preserved
 ### Dependencies
 
 - [`tibble`](https://github.com/tidyverse/tibble)
+
 - [`sf`](https://github.com/r-spatial/sf)
 
-#### Possibilities
+- [`lwgeom`](https://github.com/r-spatial/lwgeom) \#### Possibilities
 
-- <https://github.com/r-spatial/lwgeom>
 - [`dm`](https://github.com/cynkra/dm)
 
 ### Related Packages
