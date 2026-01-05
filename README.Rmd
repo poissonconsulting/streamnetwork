@@ -29,7 +29,7 @@ knitr::opts_chunk$set(
 
   Columns
     - stream_id (unique integer)
-    - stream_name (unique character)
+    - stream_name (non-unique character)
     - stream_length (double of the stream length in m)
     - parent_id (integer of stream into which it flows - NA for roots and disconnected streams)
     - parent_p (double of proportion between 0 and 1 of way up parent stream that confluence)
@@ -44,7 +44,8 @@ knitr::opts_chunk$set(
     - sinuosity
     - other columns are preserved and can be used to filter etc
 
-  Notes 
+  Notes
+  - There can be two different streams based on stream_id with the same name. 
   - The stream distance in m can be obtained by multiplying the xx_p by the stream_length.
   - Streams with sections that are temporarily or permanently dry or that flow through lakes should be included for calculation of stream measures but coded as such in the section table. 
   - There must be no cycles!

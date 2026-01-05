@@ -21,7 +21,7 @@ plot stream networks.
   Columns
 
   - stream_id (unique integer)
-  - stream_name (unique character)
+  - stream_name (non-unique character)
   - stream_length (double of the stream length in m)
   - parent_id (integer of stream into which it flows - NA for roots and
     disconnected streams)
@@ -44,6 +44,8 @@ plot stream networks.
 
   Notes
 
+  - There can be two different streams based on stream_id with the same
+    name.
   - The stream distance in m can be obtained by multiplying the xx_p by
     the stream_length.
   - Streams with sections that are temporarily or permanently dry or
